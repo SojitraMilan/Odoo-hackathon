@@ -1,0 +1,13 @@
+<odoo>
+    <record id="view_notification_tree" model="ir.ui.view">
+        <field name="name">stackit.notification.tree</field>
+        <field name="model">stackit.notification</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="message"/>
+                <field name="user_id"/>
+                <field name="is_read"/>
+            </tree>
+        </field>
+    </record>
+</odoo>

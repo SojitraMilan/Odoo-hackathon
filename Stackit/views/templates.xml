@@ -1,0 +1,11 @@
+<odoo>
+    <template id="notification_template">
+        <div class="notification">
+            <t t-foreach="notifications" t-as="notification">
+                <div>
+                    <t t-esc="notification.message"/>
+                </div>
+            </t>
+        </div>
+    </template>
+</odoo>
